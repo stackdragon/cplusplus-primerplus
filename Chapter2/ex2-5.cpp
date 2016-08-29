@@ -1,4 +1,4 @@
-// ex3-4.cpp -- Takes a Celsius temperature value and returns a Farenheit value
+// ex2-5.cpp -- Takes a Celsius temperature value and returns a Farenheit value
 
 #include<iostream>
 
