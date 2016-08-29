@@ -1,4 +1,4 @@
-// ex3-4.cpp -- Takes the user's age in years and returns their age in months
+// ex2-4.cpp -- Takes the user's age in years and returns their age in months
 
 #include<iostream>
 
