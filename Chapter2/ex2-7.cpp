@@ -1,4 +1,4 @@
-// ex3-6.cpp -- Takes two numbers and returns them in a time format (HH:MM)
+// ex2-7.cpp -- Takes two numbers and returns them in a time format (HH:MM)
 
 #include<iostream>
 
