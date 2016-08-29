@@ -1,4 +1,4 @@
-// ex3-5.cpp -- Takes a distance in light years and returns a distance in astronomical units
+// ex2-6.cpp -- Takes a distance in light years and returns a distance in astronomical units
 
 #include<iostream>
 
