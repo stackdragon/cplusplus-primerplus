@@ -1,4 +1,4 @@
-// ex3-1.cpp -- Takes a value in yards and returns the value in furlongs
+// ex2-1.cpp -- Takes a value in yards and returns the value in furlongs
 
 #include<iostream>
 
