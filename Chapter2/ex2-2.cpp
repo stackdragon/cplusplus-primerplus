@@ -1,4 +1,4 @@
-// ex3-3.cpp -- Uses three user-defined functions to print a nursery rhyme
+// ex2-2.cpp -- Uses three user-defined functions to print a nursery rhyme
 
 #include<iostream>
 
