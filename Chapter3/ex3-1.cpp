@@ -19,11 +19,10 @@ int main()
 	std::cin >> inches;
 	std::cout << std::endl << "Enter your weight in pounds: ";
 	std::cin >> weight;
-
+	
 	int heightInMeters = (feet * inchesPerFoot + inches) * inchesPerMeter;
 	int BMI = (weight * poundsToKgs) / heightInMeters ^ 2;
 	std::cout << endl << "Your BMI is: " << BMI;
-
     
 	std::cin.get();
 	std::cin.get();
