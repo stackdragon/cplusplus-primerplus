@@ -17,7 +17,6 @@ int main()
 	int mins = (inpSeconds % secPerHour) / secPerMin;
 	int secs = (inpSeconds % secPerMin);
 
-
 	std::cout << inpSeconds << " seconds is equal to " << days << " days, " << hours << " hours, ";
 	std::cout << mins << " minutes, and " << secs<< " seconds.";
 
