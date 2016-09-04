@@ -1,4 +1,4 @@
-// ex3-4.cpp -- Takes a number of seconds and returns it in days, hours, mins, and secs
+// ex3-5.cpp -- Takes the U.S. population and world population and presents U.S. pop as a percentage of world pop.
 
 #include<iostream>
 
