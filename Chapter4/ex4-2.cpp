@@ -1,4 +1,4 @@
-//  ex4-1.cpp -- Accept strings with multiple words; Increment char type
+//  ex4-2.cpp -- Accept strings with multiple words; Increment char type
 
 #include <iostream>
 #include <string>
