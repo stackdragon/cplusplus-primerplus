@@ -26,6 +26,10 @@ int main()
 	std::cout << "Diameter: " << pepperoni->diameter << std::endl;
 	std::cout << "Weight: " << pepperoni->weight << std::endl;
 
+	delete pepperoni;
+	
 	std::cin.get();
 	std::cin.get();
+
+	
 }
