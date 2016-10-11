@@ -1,5 +1,5 @@
-//  ex5-6.cpp Use an array to store three year's worth of book sales then report total
-//  sales for each year using a two dimensional array
+//  ex5-6.cpp Use an array to store three year's worth of book sales in a 2d array then report 
+//  sales for each year and in total
 
 #include <iostream>
 #include <array>
