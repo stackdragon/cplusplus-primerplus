@@ -1,6 +1,6 @@
 //  ex6-6.cpp Write a program that asks the user to enter the number of
 //  contributors and then solicit the name and contribution of each
-//  contributor. The information should be storced in a dynamically
+//  contributor. The information should be stored in a dynamically
 //  allocated array of structures. Program should then list donors with
 //  those contributing more than $10,000 listed as Grand Patrons.
 
