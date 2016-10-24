@@ -25,7 +25,7 @@ int main()
 	
 	file.get();
 
-	while (!file.eof())
+	while (!file.eof()) // read to end of file and count characters
 	{
 		charCount++;
 		file.get();
