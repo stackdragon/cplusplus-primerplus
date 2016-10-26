@@ -34,11 +34,7 @@ int main()
 		exit(EXIT_FAILURE);
 	}
 
-	file >> records; // 
-	
-	
-	
-	line of file is number of records
+	file >> records; // first line of file is number of records
 	file.get();
 
 	std::vector<patrons> list(records);
