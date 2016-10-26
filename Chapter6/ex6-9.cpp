@@ -14,12 +14,9 @@ int main()
 	const int SIZE = 60;
 	char filename[SIZE];
 	std::ifstream file;
-	int charCount = 0;
 	int records = 0;
 	int noPatrons = 0;
 	int noGrandPatrons = 0;
-	char firstName;
-	char lastName;
 
 	struct patrons
 	{
@@ -37,7 +34,11 @@ int main()
 		exit(EXIT_FAILURE);
 	}
 
-	file >> records; // first line of file is number of records
+	file >> records; // 
+	
+	
+	
+	line of file is number of records
 	file.get();
 
 	std::vector<patrons> list(records);
