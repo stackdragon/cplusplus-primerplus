@@ -1,9 +1,9 @@
-//  ex7-2.cpp Write a program that asks the user to enter up to 10 golf scores,
-//  which are to be stored in an array. You should provide a means for the user
-//  to terminate input prior to entering 10 scores. The program should
-//  display all the scores on one line and report the average score. Handle input, 
-//  display, and the average calculation with three separate array - processing
-//  functions.
+// ex7-2.cpp Write a program that asks the user to enter up to 10 golf scores,
+// which are to be stored in an array. You should provide a means for the user
+// to terminate input prior to entering 10 scores. The program should
+// display all the scores on one line and report the average score. Handle input, 
+// display, and the average calculation with three separate array - processing
+// functions.
 
 #include <iostream>
 
@@ -20,7 +20,8 @@ int main()
 	std::cin.get();
 }
 
-int fillArray(int scores[], int maxSize)		// get input from user
+// get input from user
+int fillArray(int scores[], int maxSize)		
 {
 	std::cout << "Enter your golf scores. Enter a letter to stop input.\n";
 	int i = 0;
@@ -38,6 +39,7 @@ int fillArray(int scores[], int maxSize)		// get input from user
 	return i;		// return the number of scores input
 }
 
+// display
 void showArray(const int scores[], int size)
 {
 	std::cout << "\nScores: ";
@@ -52,6 +54,7 @@ void showArray(const int scores[], int size)
 	std::cout << "Average score: " << showAverage(scores, size) << std::endl;
 }
 
+// calculate and return average score
 float showAverage(const int scores[], int size)
 {
 	int total = 0;
