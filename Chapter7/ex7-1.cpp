@@ -14,12 +14,12 @@ int main()
 	int num1 = 1;
 	int num2 = 1;
 
-	while (num1 != 0 && num2 != 0)
+	std::cout << "Enter a pair of numbers: ";
+
+	while (std::cin >> num1 >> num2 && num1 != 0 && num2 !=0 )
 	{
+		std::cout << "The harmonic mean is " << showHarmMean(num1, num2) << std::endl;
 		std::cout << "Enter a pair of numbers: ";
-		std::cin >> num1 >> num2;
-		if (num1 != 0 & num2 != 0)
-			std::cout << "The harmonic mean is " << showHarmMean(num1, num2) << std::endl;
 	}
 	std::cin.get();
 }
