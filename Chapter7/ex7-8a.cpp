@@ -1,4 +1,4 @@
-// ex7-8.cpp Redo Listing 7.15 without using the array class. Do two versions: a. Use an ordinary
+// ex7-8a.cpp Redo Listing 7.15 without using the array class. Do two versions: a. Use an ordinary
 // array of const char * for the strings representing the season names, and use an ordinary array
 // of double for the expenses. b. Use an ordinary array of const char * for the strings represented
 // by the season names, and use a structure whose sole member is an ordinary array of double for the
