@@ -13,10 +13,10 @@
 const int Seasons = 4;
 const char *Snames[Seasons] = { "Spring", "Summer", "Fall", "Winter" };
 
-// function to modify array object 
+// function to modify array 
 void fill(double pa[Seasons]);
 
-// function that uses array object without modifying it 
+// function that uses array without modifying it 
 void show(const double da[Seasons]);
 
 int main()
