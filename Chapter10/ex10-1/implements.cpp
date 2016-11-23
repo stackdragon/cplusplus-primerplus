@@ -11,6 +11,15 @@ BankAccount::BankAccount(const std::string &name, const std::string &accountNum,
 	m_balance = balance;
 }
 
+BankAccount::BankAccount() // default constructor
+{
+	m_name = "No name given.";
+	m_accountNum = "No account number given.";
+	m_balance = 0;
+}
+
+BankAccount::~BankAccount() { }	// destuctor
+
 void BankAccount::deposit(double money)
 {
 	m_balance += money;
