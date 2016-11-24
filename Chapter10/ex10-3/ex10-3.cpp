@@ -8,13 +8,21 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
 #include "definitions.h"
 
 int main()
 { 
-	int const num = 3;
-	std::cout << "Enter the information for 3 golfers.\n";
-	Golf golfers[num];
+	int num = 0;
+	std::cout << "Enter the number of golfers: ";
+	std::cin >> num;
+	std::cin.get();
+	std::vector<Golf> golfers; // create a vector of Golf objects
+	Golf foo; // blank object used to fill the vector
+
+	for (int i = 0; i < num; i++)	// fill the vector with a series of blank objects
+		golfers.push_back(foo);		// based on number of golfers
+
 	for (int i = 0; i < num; i++)
 	{
 		golfers[i].setgolf(i);
