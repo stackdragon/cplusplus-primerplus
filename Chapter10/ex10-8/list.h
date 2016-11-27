@@ -7,7 +7,7 @@ typedef int Item;
 class List
 {
 private:
-	enum { MAX = 5 };   // constant specific to class 
+	static const int MAX = 5; // constant specific to class 
 	Item m_items[MAX];    // holds list items
 	int m_top;            // index for top list items
 public:
