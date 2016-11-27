@@ -26,7 +26,7 @@ int main()
 			std::cin.get();
 			std::cin >> b;
 			Move tempMove(a, b); // create temporary object to pass member values to Move.add method
-			myMove = myMove.add(tempMove); // pass temporary object, assign return object to MyMove
+			myMove = myMove.add(tempMove); // pass temporary object, assign return object to myMove
 			myMove.showmove();
 		}
 		else if (input == 2)
