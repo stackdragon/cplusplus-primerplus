@@ -53,4 +53,7 @@ int main()
 		pwines[i]->view();
 		std::cout << std::endl;
 	}
+	for (int i = 0; i < numWines; i++)
+		delete pwines[i];
+	return 0;
 }
